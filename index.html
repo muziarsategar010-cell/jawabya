@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hearts" aria-hidden="true">
+    <span>♡</span><span>♥</span><span>♡</span>
+    <span>♥</span><span>♡</span><span>♥</span>
+  </div>
+
+  <main class="container">
+
+    <section class="card" id="home">
+      <div class="sticker">💌</div>
+      <p class="eyebrow">A LITTLE MESSAGE FOR YOU</p>
+      <h1>Hai, Kamu! 💗</h1>
+      <p class="description">
+        Ada sesuatu yang ingin aku sampaikan.
+        Boleh luangkan sedikit waktu untuk membaca pesanku?
+      </p>
+      <button class="primary" id="startButton">
+        Buka Pesanku ✨
+      </button>
+      <p class="tiny">Dibuat dengan tulus, khusus untuk kamu.</p>
+    </section>
+
+    <section class="card hidden" id="letterPage">
+      <div class="sticker">🧸</div>
+      <p class="eyebrow">FROM MY HEART</p>
+      <h2>Ada yang ingin aku bilang...</h2>
+
+      <div class="letter">Hai, kamu.
+
+Aku tahu mungkin tidak semuanya berjalan seperti yang kita harapkan. Tapi aku masih menghargai semua kenangan dan hal-hal baik yang pernah kita lewati bersama.
+
+Aku tidak ingin memaksamu mengambil keputusan. Aku hanya ingin jujur tentang perasaanku dan bilang kalau kamu masih berarti buatku.
+
+Apa pun jawabanmu, aku akan berusaha menghargai perasaanmu. 🤍
+
+— Dari aku, yang masih peduli sama kamu.</div>
+
+      <button class="primary" id="questionButton">
+        Aku Mau Tanya Sesuatu 💗
+      </button>
+    </section>
+
+    <section class="card hidden" id="question">
+      <div class="sticker">💞</div>
+      <p class="eyebrow">ONE LITTLE QUESTION</p>
+      <h2>Kalau boleh jujur...</h2>
+      <p class="description">
+        Apa kamu mau mencoba memulai lagi bersamaku?
+      </p>
+      <p class="description small">
+        Pilih jawaban yang paling sesuai dengan perasaanmu.
+        Aku akan menghargai keputusanmu.
+      </p>
+
+      <div class="answers">
+        <button class="primary answer" data-answer="yes">
+          Aku mau balikan sama kamu 💗
+        </button>
+
+        <button class="secondary answer" data-answer="time">
+          Aku masih butuh waktu 🤍
+        </button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="result">
+      <div class="sticker" id="resultEmoji">💗</div>
+      <p class="eyebrow">THANK YOU FOR BEING HONEST</p>
+      <h2 id="resultTitle">Terima kasih 🤍</h2>
+      <p class="description" id="resultMessage"></p>
+      <button class="secondary" id="backButton">
+        Kembali ke Awal
+      </button>
+    </section>
+
+    <footer>made with ♡ just for you</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
